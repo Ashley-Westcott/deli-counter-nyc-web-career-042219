@@ -17,5 +17,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,new_person)
+  counter = 1
   puts katz_deli.push(new_person)
 end  
