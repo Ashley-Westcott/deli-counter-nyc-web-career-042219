@@ -9,7 +9,7 @@ def line(katz_deli)
       puts "The line is currently empty."
     else
       katz_deli.each do |person|
-      array.push #{counter}. #{person}
+      array.push(#{counter}. #{person})
       counter += 1
     end
     puts "The line is currently: #{array.join(" ")}"
