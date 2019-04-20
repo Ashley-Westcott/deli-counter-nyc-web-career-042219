@@ -11,7 +11,7 @@ def line(katz_deli)
       katz_deli.each do |person|
       array.push #{counter}. #{person}
       counter += 1
-      push array
+      puts "The line is currently: 
     end
   end
 end
