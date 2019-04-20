@@ -12,7 +12,7 @@ def line(katz_deli)
       array.push #{counter}. #{person}
       counter += 1
     end
-    puts "The line is currently: #{array}"
+    puts "The line is currently: #{array.join(" ")}"
   end
 end
 
