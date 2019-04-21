@@ -22,7 +22,11 @@ def take_a_number(katz_deli,new_person)
 end  
 
 def now_serving
-  
-
+    if line.length == 0
+      puts "There is nobody waiting to be served!"
+    else
+      
+    
+    end
   
 end  
